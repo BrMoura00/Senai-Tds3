@@ -1,0 +1,60 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFC0CB; /* Mudança para cor rosa bebê */
+    font-family: 'Comic Sans MS', 'Arial', sans-serif; /* Fonte mais fofa */
+}
+
+.screen {
+    text-align: center;
+    width: 100%;
+}
+
+h1 {
+    font-size: 32px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 24px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    background-color: #FFF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.fancy-text {
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+    margin: 0;
+    padding: 20px;
+    background-image: url('confetti.png');
+    background-size: cover;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.confetti {
+    /* Estilização do confete será adicionada aqui. */
+    /* Pode ser uma imagem de fundo ou animações CSS para simular confetes. */
+}
