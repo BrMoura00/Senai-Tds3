@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="backend.js"></script>
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="#p1">Marafiga</a></li>
+            <li><a href="#p2">Brenin</a></li>
+            <li><a href="#tec">Técnologia</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+    </header>
+
+    <div id="p1" class="profile01">
+        <p class="titleP1">Marafiga</p>
+        <div class="img01P">
+            <img class="img01" src="Fotos/Mara.jpg" alt="Mara">
+       </div>
+
+       <div class="textMara">
+            <p>    
+                Responsável pela 
+                criação e implementação da parte visual do site. linguagens como HTML, CSS
+                foram usadas por este Dev. Seu foco principal é garantir uma experiência do usuário intuitiva e atraente, mantendo-se atualizado sobre as melhores práticas e tendências de desenvolvimento web.
+            </p>
+       </div>
+    </div>
+
+    <div id="p2" class="profile02">
+        <p class="titleP2">Brenin</p>       
+        <div class="textBreno">
+            <p>
+                Responsável pela 
+                criação e implementação da parte funcional e 
+                interativa do site. linguagens como Java Script
+                foram usadas por este Dev. Seu foco principal é garantir uma experiência do usuário intuitiva e atraente, mantendo-se atualizado sobre as melhores práticas e tendências de desenvolvimento web.
+            </p>
+                
+        </div>
+
+        <div class="img02P">
+            <img class="img02" src="Fotos/Bren.jpg" alt="Bre">
+        </div>
+
+    </div>
+
+    <div id="tec" class="tec">
+        <p>Técnologia</p>
+        <div class="allImg">
+            <div class="allImgP">
+                <div class="htmlImgP">
+                    <img class="htmlImgS" src="https://cdn-icons-png.flaticon.com/512/1532/1532556.png" alt="">
+                </div>
+
+                <p class="htmlText">
+                    É a espinha dorsal da estrutura de uma página web. HTML define a organização do conteúdo, utilizando tags para elementos como cabeçalhos, parágrafos, listas e links. Ele estabelece a base estrutural do sistema, delineando como as informações devem ser apresentadas no navegador.
+                </p>
+    
+                <div class="cssImgP">
+                    <img class="cssImgS" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png" alt="">    
+                </div>
+
+                <p class="cssText">
+                    Responsável pela aparência visual da interface, o CSS complementa o HTML. Ele permite a estilização dos elementos HTML, controlando cores, fontes, tamanhos e layout. Ao separar a camada de estilo, o CSS facilita a manutenção e atualização visual sem a necessidade de alterar diretamente o conteúdo estrutural.
+                </p>
+    
+                <div class="jsImgP">
+                    <img class="jsImgS" src="https://seeklogo.com/images/J/javascript-logo-8892AEFCAC-seeklogo.com.png" alt="">
+                </div>
+
+                <p class="jsText">
+                    Introduz a dinamicidade e interatividade ao sistema. Enquanto o HTML e o CSS são estáticos, o JavaScript permite a manipulação dinâmica da página. Ele pode ser utilizado para criar efeitos visuais, validar formulários, interagir com APIs para buscar ou enviar dados, entre outras funcionalidades. JavaScript torna possível a construção de sistemas web mais dinâmicos e responsivos.
+                </p>
+
+            </div>   
+        </div>
+        
+    </div>
+
+    <div id="contact" class="contact">
+        <div class="wrap-divs-contact">
+            <div>
+                <h3>Contato</h3>
+                <p>Mande uma mensagem para nós!</p>
+            </div>
+            <div>
+                <div>
+                    <input class="input-style01" type="text" id="nome" placeholder="Nome">
+                </div>
+                <div>
+                    <textarea class="input-style01" type="text" id="mensagem" placeholder="Digite sua mensagem"></textarea>
+                </div>
+            </div>
+            <button onclick="conferirMesagemWhatsApp()">Conferir dados inseridos</button>
+        </div>
+        <div class="wrap-divs-contact">
+            <div>
+                <p>Nome: <span id="confNome"></span></p>
+                <p>Mensagem: <span id="confMsg"></span></p>
+            </div>
+            <button onclick="enviar()">Enviar</button>
+        </div>
+    </div>
+
+</body>
+</html>
